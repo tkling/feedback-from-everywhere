@@ -51,4 +51,4 @@ production:
   <<: *default
   database: feedback-from-everywhere_production
   username: feedback-from-everywhere
-  password: <%= ENV['FEEDBACK-FROM-EVERYWHERE_DATABASE_PASSWORD'] %>
+  password: <%= ENV['DATABASE_PASSWORD'] %>
